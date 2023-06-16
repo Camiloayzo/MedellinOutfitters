@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0cfcf;
+    color: #1a1b1b;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    background-color: #268181;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #b0cfcf;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Estilos de la sección principal */
+  h1 {
+    color: #1a1b1b;
+  }
+  
+  p {
+    color: #1a1b1b;
+  }
+  
+  .row .card {
+    background-color: #b0cfcf;
+    border: none;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #1a1b1b;
+  }
+  
+  .btn-primary {
+    background-color: #268181;
+    border-color: #268181;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1a1b1b;
+    border-color: #1a1b1b;
+  }
+  
+  /* Estilos del footer */
+  footer {
+    background-color: #268181;
+    color: #b0cfcf;
+    text-align: center;
+    padding: 10px;
+  }
+  
